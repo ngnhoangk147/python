@@ -6,14 +6,15 @@ from datetime import date
 #data processing
 file_name=input("Enter the file: ")
 df = pd.read_excel(file_name)
-OCSHN1	=['772',' 775','773','774','776','777','778','779']
-OCSHN2	=['762','763','764','765','1210','766','767','768','769']
-OCSHN3	=['901','902','903','904','905']
-OCSHN4	=['931','932','933','934','935','702','703','704','705']
-OCSHCM1	=['786','787','788','789','782','783','784','785']
-OCSHCM2	=['792','793','794','795','796','797','798','799']
-OCSHCM3	=['906','907','896','898','908','909','899']
-OCSHCM4	=['936','937','706','707','708','938','939']
+#Prefix-subscriber information is not public
+OCSHN1	=['...']
+OCSHN2	=['...']
+OCSHN3	=['...']
+OCSHN4	=['...']
+OCSHCM1	=['...']
+OCSHCM2	=['...']
+OCSHCM3	=['...']
+OCSHCM4	=['...']
 df_count=df['CALLING_NUMBER_M'].count()
 
 NODE=[]
