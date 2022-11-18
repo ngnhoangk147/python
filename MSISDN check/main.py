@@ -6,6 +6,7 @@ from datetime import date
 #data processing
 file_name=input("Enter the file: ")
 df = pd.read_excel(file_name)
+#Prefix-subscriber information is not public
 OCSHN1	=['...']
 OCSHN2	=['...']
 OCSHN3	=['...']
